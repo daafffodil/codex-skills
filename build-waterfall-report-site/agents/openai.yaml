@@ -1,0 +1,6 @@
+interface:
+  display_name: "瀑布流站点"
+  short_description: "把日期报告或内容集合做成极简的单页瀑布流卡片网站"
+  icon_small: "./assets/brands/dangdang-brand-mark.png"
+  icon_large: "./assets/brands/dangdang-brand-mark.png"
+  default_prompt: "使用 $build-waterfall-report-site，把这个项目做成可按日期切换、点击卡片原地展开的瀑布流站点。"

@@ -1,0 +1,16 @@
+{
+  "site": {
+    "title": "示例项目",
+    "accent": "#23B985",
+    "brandMark": "",
+    "mode": "dated"
+  },
+  "reports": [
+    {
+      "key": "2026-07-30",
+      "label": "2026年7月30日",
+      "file": "data/2026-07-30.json"
+    }
+  ]
+}
+

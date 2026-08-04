@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="单页瀑布流报告站点" />
+    <title>瀑布流站点</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="brand">
+          <img id="brandMark" alt="" hidden />
+          <span id="siteTitle"></span>
+        </div>
+      </header>
+      <main>
+        <nav id="dateNav" class="date-nav" aria-label="内容日期">
+          <button id="older" class="day-arrow" type="button" aria-label="前一天">‹</button>
+          <button
+            id="dateToggle"
+            class="date-title"
+            type="button"
+            aria-haspopup="dialog"
+            aria-expanded="false"
+          >
+            <strong id="dateLabel"></strong>
+            <span class="chevron" aria-hidden="true">⌄</span>
+          </button>
+          <button id="newer" class="day-arrow" type="button" aria-label="后一天">›</button>
+          <div id="dateMenu" class="date-menu" role="dialog" aria-label="选择日期" hidden></div>
+        </nav>
+        <section id="board" class="board" aria-live="polite"></section>
+        <p id="status" class="status" role="status"></p>
+      </main>
+    </div>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+
