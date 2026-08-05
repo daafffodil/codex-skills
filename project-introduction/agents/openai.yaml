@@ -1,0 +1,7 @@
+interface:
+  display_name: "项目介绍与思考逻辑"
+  short_description: "每次交付时自动更新项目介绍，并记录用户的问题、判断与需求演化"
+  default_prompt: "使用 $project-introduction，为当前交付生成或更新项目介绍和用户思考逻辑 Markdown。"
+
+policy:
+  allow_implicit_invocation: true
