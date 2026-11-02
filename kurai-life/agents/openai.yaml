@@ -1,0 +1,4 @@
+interface:
+  display_name: "kurai-life"
+  short_description: "将生活照片重画成稚拙小册子插画，保留动作与布局，结合揉擦色块、细线和纸白"
+  default_prompt: "使用 $kurai-life 将这张照片转换为个人艺术小册子的手绘画风。"
